@@ -55,41 +55,90 @@
         </div>
     </header>
     <main>
-        <section class="bg-gray-100 py-12">
+        <section class="py-12">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
                     <h2 class="text-3xl font-bold text-gray-900 mb-10">Acerca de mí</h2>
                 </div>
                 <div class="flex flex-col md:flex-row items-center justify-center md:space-x-8">
-                    <div class="md:w-1/2 mb-4 md:mb-0">
-                        <img class=" md:h-96 rounded-lg" src="./img/hero.jpg" alt="Imagen de perfil">
+                    <div class="md:w-1/2 mb-4 md:mb-0 bg-blue-500 rounded-lg flex justify-center">
+                        <img src="./img/profile.png" alt="Imagen de perfil">
                     </div>
-                    <div class="md:w-1/2">
-                        <p class="text-gray-700 leading-relaxed">
-                            Soy un profesional en tecnologías de la información con más de 5 años de experiencia en
-                            soporte técnico, implementación de sistemas, administración de plataformas tecnológicas,
-                            cableado estructurado y mantenimiento preventivo y correctivo. Durante mi carrera, he tenido
-                            el honor de trabajar en compañías del sector tecnológico, brindando servicios de calidad a
-                            grandes clientes.
-
-                            Recientemente, he iniciado mi camino en el desarrollo web y he implementado sitios y
-                            aplicaciones para empresas. He adquirido conocimientos y experiencia en tecnologías como
-                            HTML, CSS, JavaScript, GitHub, React y también en pruebas automatizadas con Cypress. En
-                            anteriores experiencias, documenté casos de uso para brindar el mejor servicio en las
-                            aplicaciones.
-
-                            Me he propuesto ampliar mis conocimientos en ISTQB para lograr la certificación, así como en
-                            Angular, Redux, Sass y mejorar mis habilidades en buenas prácticas y metodologías Scrum.
-
-                            Me considero una persona altamente proactiva, en la que se puede confiar para cumplir con
-                            las metas y objetivos establecidos. Mis compañeros me describen como un colaborador
-                            comprometido y motivado en todo momento, con la capacidad de adaptarme rápidamente a
-                            situaciones cambiantes y resolver problemas de manera efectiva.
-                        </p>
-                    </div>
+                    <div class="md:w-1/2 text-gray-600">
+                        <p>Soy un profesional en tecnologías de la información con más de 5 años de experiencia en soporte técnico, implementación de sistemas, administración de plataformas tecnológicas, cableado estructurado y mantenimiento preventivo y correctivo. Durante mi carrera, he tenido el honor de trabajar en compañías del sector tecnológico, brindando servicios de calidad a grandes clientes. Recientemente, he iniciado mi camino en el desarrollo web y he implementado sitios y aplicaciones para empresas. He adquirido conocimientos y experiencia en tecnologías como HTML, CSS, JavaScript, GitHub, React y también en pruebas automatizadas con Cypress.</p>
+                        
+                        <p class="hidden" id="hiddenText">En anteriores experiencias, documenté casos de uso para brindar el mejor servicio en las aplicaciones. Me he propuesto ampliar mis conocimientos en ISTQB para lograr la certificación, así como en Angular, Redux, Sass y mejorar mis habilidades en buenas prácticas y metodologías Scrum. Me considero una persona altamente proactiva, en la que se puede confiar para cumplir con las metas y objetivos establecidos. Mis compañeros me describen como un colaborador comprometido y motivado en todo momento, con la capacidad de adaptarme rápidamente a situaciones cambiantes y resolver problemas de manera efectiva.</p>
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2 w-full mt-4" id="toggleButton">Ver más</button>
+                      </div>
+                      
                 </div>
             </div>
         </section>
+        <section class="bg-gray-100 py-10">
+            <div class="container mx-auto">
+              <h2 class="text-center text-3xl  font-bold mb-8">Experiencia</h2>
+              <div class="flex flex-wrap -mx-4">
+                <div class="w-full lg:w-1/2 px-4 mb-8">
+                  <div class="bg-white p-6 shadow-lg">
+                    <h3 class="text-lg font-bold mb-4">Coordinador de Procesos de TI</h3>
+                    <p class="text-gray-700 text-sm mb-4">PBS | Abril. 2023 - Presente</p>
+                    <ul class="list-disc list-inside">
+                      <li class="mb-2">Desarrollo de nuevas características en aplicaciones web utilizando React.</li>
+                      <li class="mb-2">Solución de bugs y errores en el código.</li>
+                      <li class="mb-2">Realización de pruebas automatizadas con Cypress.</li>
+                      <li class="mb-2">Documentación de casos de uso utilizando la metodología ISTQB.</li>
+                      <li class="mb-2">Desarrollo de nuevas funcionalidades en software empresarial.</li>
+                      <li class="mb-2">Mantenimiento y actualización de sistemas existentes.</li>
+                      <li class="mb-2">Participación en reuniones y planificación de proyectos utilizando la metodología Scrum.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-4 mb-8">
+                  <div class="bg-white p-6 shadow-lg">
+                    <h3 class="text-lg font-bold mb-4">Analista de aplicaciones web</h3>
+                    <p class="text-gray-700 text-sm mb-4">Beta Tech | Oct. 2022 - Abril. 2023</p>
+                    <ul class="list-disc list-inside">
+                      <li class="mb-2">Desarrollo de nuevas características en aplicaciones web utilizando React.</li>
+                      <li class="mb-2">Solución de bugs y errores en el código.</li>
+                      <li class="mb-2">Realización de pruebas automatizadas con Cypress.</li>
+                      <li class="mb-2">Documentación de casos de uso utilizando la metodología ISTQB.</li>
+                      <li class="mb-2">Desarrollo de nuevas funcionalidades en software empresarial.</li>
+                      <li class="mb-2">Mantenimiento y actualización de sistemas existentes.</li>
+                      <li class="mb-2">Participación en reuniones y planificación de proyectos utilizando la metodología Scrum.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-4 mb-8">
+                  <div class="bg-white p-6 shadow-lg">
+                    <h3 class="text-lg font-bold mb-4">Supervisor Regional de Soporte Técnico</h3>
+                    <p class="text-gray-700 text-sm mb-4">Beta Tech | Ene. 2022 - Oct. 2022</p>
+                    <ul class="list-disc list-inside">
+                      <li class="mb-2">Gestionar y supervisar la implementación de soluciones técnicas en la región asignada.</li>
+                      <li class="mb-2">Coordinar y liderar al equipo de soporte técnico en la región, asegurando que los técnicos brinden un servicio de alta calidad y se adhieran a los estándares de la empresa.</li>
+                      <li class="mb-2">Orientar y capacitar a técnicos de soporte en nuevas tecnologías y prácticas recomendadas</li>
+                      <li class="mb-2">Identificar y resolver problemas técnicos complejos en la región asignada, asegurando la satisfacción del cliente.
+                    </li>
+                      <li class="mb-2">Mantener un alto nivel de conocimiento técnico y estar al día con las últimas tendencias y avances en la industria.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-4 mb-8">
+                  <div class="bg-white p-6 shadow-lg">
+                    <h3 class="text-lg font-bold mb-4">Especialista de soporte técnico</h3>
+                    <p class="text-gray-700 text-sm mb-4">Beta Tech | Feb. 2021 - Oct. 2022</p>
+                    <ul class="list-disc list-inside">
+                      <li class="mb-2">Instalación y configuración de sistemas operativos en múltiples plataformas, incluyendo Microsoft Windows, macOS y Linux.</li>
+                      <li class="mb-2">Administración de activos informáticos, incluyendo el seguimiento y gestión de inventarios, adquisiciones y disposiciones de hardware y software.</li>
+                      <li class="mb-2">Diseño, instalación y mantenimiento de infraestructura de cableado y estructurado, asegurando la disponibilidad y rendimiento de la red.</li>
+                      <li class="mb-2">Identificación y resolución de problemas técnicos en hardware, software y redes</li>
+                      <li class="mb-2">Mantenimiento preventivo y correctivo de equipos de cómputo y periféricos</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
 
     </main>
     <script src="./js/app.js"></script>
