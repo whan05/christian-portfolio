@@ -2,145 +2,227 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/styles.css">
-    <link rel="stylesheet" href="./css/test.css">
-    <title>Christian Acuña Torres</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/styles.css">
+  <link rel="stylesheet" href="./css/test.css">
+  <title>Christian Acuña Torres</title>
 </head>
 
 <body>
-    <header>
-        <!-- HTML para el menú responsive -->
-        <nav class="flex justify-between items-center p-6 bg-gray-900 text-white">
-            <div class="flex items-center mr-4">
-                <h1 class="font-bold text-2xl">Christian Acuña Torres</h1>
-                <ul class="hidden md:flex ml-8 space-x-8">
-                    <li><a href="#">Acerca de mi</a></li>
-                    <li><a href="#">Experiencia</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Educación</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="mr-8 md:hidden">
-                <button class="mobile-menu-button">
-                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-                        <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden mobile-menu md:hidden bg-gray-900">
-                <ul class="flex flex-col items-center py-4 space-y-4">
-                    <li><a href="#">Acerca de mi</a></li>
-                    <li><a href="#">Experiencia</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Educación</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
+  <header>
+    <!-- HTML para el menú responsive -->
+    <nav class="flex justify-between items-center p-6 bg-gray-900 text-white">
+      <div class="flex items-center mr-4">
+        <h1 class="font-bold text-2xl">Christian Acuña Torres</h1>
+        <ul class="hidden md:flex ml-8 space-x-8">
+          <li><a href="#">Acerca de mi</a></li>
+          <li><a href="#">Experiencia</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Educación</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="mr-8 md:hidden">
+        <button class="mobile-menu-button">
+          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden mobile-menu md:hidden bg-gray-900">
+        <ul class="flex flex-col items-center py-4 space-y-4">
+          <li><a href="#">Acerca de mi</a></li>
+          <li><a href="#">Experiencia</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Educación</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
 
-        <div class="w-full bg-[url('/img/hero.jpg')] object-cover h-96 flex items-center">
-            <div class=" mx-auto flex-col items-center">
-                <h1 class="text-4xl font-bold text-white">¡Bienvenido(a) a mi sitio web!</h1>
-                <p class="text-lg text-white">Aquí encontrarás información sobre mis servicios y mi experiencia en la
-                    industria.</p>
-                <div class="mt-8">
-                    <a href="#" class="bg-blue-500 text-white px-10 py-2 rounded-md mx-auto">Mas información</a>
-                </div>
-            </div>
+    <div class="w-full bg-[url('/img/hero.jpg')] object-cover h-96 flex items-center">
+      <div class=" mx-auto flex-col items-center">
+        <h1 class="text-4xl font-bold text-white">¡Bienvenido(a) a mi sitio web!</h1>
+        <p class="text-lg text-white">Aquí encontrarás información sobre mis servicios y mi experiencia en la
+          industria.</p>
+        <div class="mt-8">
+          <a href="#" class="bg-blue-500 text-white px-10 py-2 rounded-md mx-auto">Mas información</a>
         </div>
-    </header>
-    <main>
-        <section class="py-12">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center">
-                    <h2 class="text-3xl font-bold text-gray-900 mb-10">Acerca de mí</h2>
-                </div>
-                <div class="flex flex-col md:flex-row items-center justify-center md:space-x-8">
-                    <div class="md:w-1/2 mb-4 md:mb-0 bg-blue-500 rounded-lg flex justify-center">
-                        <img src="./img/profile.png" alt="Imagen de perfil">
-                    </div>
-                    <div class="md:w-1/2 text-gray-600">
-                        <p>Soy un profesional en tecnologías de la información con más de 5 años de experiencia en soporte técnico, implementación de sistemas, administración de plataformas tecnológicas, cableado estructurado y mantenimiento preventivo y correctivo. Durante mi carrera, he tenido el honor de trabajar en compañías del sector tecnológico, brindando servicios de calidad a grandes clientes. Recientemente, he iniciado mi camino en el desarrollo web y he implementado sitios y aplicaciones para empresas. He adquirido conocimientos y experiencia en tecnologías como HTML, CSS, JavaScript, GitHub, React y también en pruebas automatizadas con Cypress.</p>
-                        
-                        <p class="hidden" id="hiddenText">En anteriores experiencias, documenté casos de uso para brindar el mejor servicio en las aplicaciones. Me he propuesto ampliar mis conocimientos en ISTQB para lograr la certificación, así como en Angular, Redux, Sass y mejorar mis habilidades en buenas prácticas y metodologías Scrum. Me considero una persona altamente proactiva, en la que se puede confiar para cumplir con las metas y objetivos establecidos. Mis compañeros me describen como un colaborador comprometido y motivado en todo momento, con la capacidad de adaptarme rápidamente a situaciones cambiantes y resolver problemas de manera efectiva.</p>
-                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2 w-full mt-4" id="toggleButton">Ver más</button>
-                      </div>
-                      
-                </div>
-            </div>
-        </section>
-        <section class="bg-gray-100 py-10">
-            <div class="container mx-auto">
-              <h2 class="text-center text-3xl  font-bold mb-8">Experiencia</h2>
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-full lg:w-1/2 px-4 mb-8">
-                  <div class="bg-white p-6 shadow-lg">
-                    <h3 class="text-lg font-bold mb-4">Coordinador de Procesos de TI</h3>
-                    <p class="text-gray-700 text-sm mb-4">PBS | Abril. 2023 - Presente</p>
-                    <ul class="list-disc list-inside">
-                      <li class="mb-2">Supervisión del equipo de soporte técnico para garantizar que se cumplan las normas de calidad y tiempo.</li>
-                      <li class="mb-2">Documentación de evidencias y seguimiento de informes técnicos para garantizar la resolución de problemas y el cumplimiento de los objetivos.</li>
-                      <li class="mb-2">Realizar reuniones con los clientes para discutir las necesidades del proyecto y asegurar la satisfacción del cliente.</li>
-                      <li class="mb-2">Recibir y gestionar la salida de equipo para garantizar la eficacia de la gestión de activos.</li>
-                      <li class="mb-2">Planificar y realizar capacitaciones periódicas a los técnicos para mejorar sus habilidades técnicas y de servicio al cliente.</li>
-                      <li class="mb-2">Asegurarse de que los proyectos se ejecuten según los estándares de calidad y tiempo establecidos a nivel regional.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="w-full lg:w-1/2 px-4 mb-8">
-                  <div class="bg-white p-6 shadow-lg">
-                    <h3 class="text-lg font-bold mb-4">Analista de aplicaciones web</h3>
-                    <p class="text-gray-700 text-sm mb-4">Beta Tech | Oct. 2022 - Abril. 2023</p>
-                    <ul class="list-disc list-inside">
-                      <li class="mb-2">Desarrollo de nuevas características en aplicaciones web utilizando React.</li>
-                      <li class="mb-2">Solución de bugs y errores en el código.</li>
-                      <li class="mb-2">Realización de pruebas automatizadas con Cypress.</li>
-                      <li class="mb-2">Documentación de casos de uso utilizando la metodología ISTQB.</li>
-                      <li class="mb-2">Desarrollo de nuevas funcionalidades en software empresarial.</li>
-                      <li class="mb-2">Mantenimiento y actualización de sistemas existentes.</li>
-                      <li class="mb-2">Participación en reuniones y planificación de proyectos utilizando la metodología Scrum.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="w-full lg:w-1/2 px-4 mb-8">
-                  <div class="bg-white p-6 shadow-lg">
-                    <h3 class="text-lg font-bold mb-4">Supervisor Regional de Soporte Técnico</h3>
-                    <p class="text-gray-700 text-sm mb-4">Beta Tech | Ene. 2022 - Oct. 2022</p>
-                    <ul class="list-disc list-inside">
-                      <li class="mb-2">Gestionar y supervisar la implementación de soluciones técnicas en la región asignada.</li>
-                      <li class="mb-2">Coordinar y liderar al equipo de soporte técnico en la región, asegurando que los técnicos brinden un servicio de alta calidad y se adhieran a los estándares de la empresa.</li>
-                      <li class="mb-2">Orientar y capacitar a técnicos de soporte en nuevas tecnologías y prácticas recomendadas</li>
-                      <li class="mb-2">Identificar y resolver problemas técnicos complejos en la región asignada, asegurando la satisfacción del cliente.
-                    </li>
-                      <li class="mb-2">Mantener un alto nivel de conocimiento técnico y estar al día con las últimas tendencias y avances en la industria.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="w-full lg:w-1/2 px-4 mb-8">
-                  <div class="bg-white p-6 shadow-lg">
-                    <h3 class="text-lg font-bold mb-4">Especialista de soporte técnico</h3>
-                    <p class="text-gray-700 text-sm mb-4">Beta Tech | Feb. 2021 - Oct. 2022</p>
-                    <ul class="list-disc list-inside">
-                      <li class="mb-2">Instalación y configuración de sistemas operativos en múltiples plataformas, incluyendo Microsoft Windows, macOS y Linux.</li>
-                      <li class="mb-2">Administración de activos informáticos, incluyendo el seguimiento y gestión de inventarios, adquisiciones y disposiciones de hardware y software.</li>
-                      <li class="mb-2">Diseño, instalación y mantenimiento de infraestructura de cableado y estructurado, asegurando la disponibilidad y rendimiento de la red.</li>
-                      <li class="mb-2">Identificación y resolución de problemas técnicos en hardware, software y redes</li>
-                      <li class="mb-2">Mantenimiento preventivo y correctivo de equipos de cómputo y periféricos</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2 class="text-3xl font-bold text-gray-900 mb-10">Acerca de mí</h2>
+        </div>
+        <div class="flex flex-col md:flex-row items-center justify-center md:space-x-8">
+          <div class="md:w-1/2 mb-4 md:mb-0 bg-blue-500 rounded-lg flex justify-center">
+            <img src="./img/profile.png" alt="Imagen de perfil">
+          </div>
+          <div class="md:w-1/2 text-gray-600">
+            <p>Soy un profesional en tecnologías de la información con más de 5 años de experiencia en soporte técnico,
+              implementación de sistemas, administración de plataformas tecnológicas, cableado estructurado y
+              mantenimiento preventivo y correctivo. Durante mi carrera, he tenido el honor de trabajar en compañías del
+              sector tecnológico, brindando servicios de calidad a grandes clientes. Recientemente, he iniciado mi
+              camino en el desarrollo web y he implementado sitios y aplicaciones para empresas. He adquirido
+              conocimientos y experiencia en tecnologías como HTML, CSS, JavaScript, GitHub, React y también en pruebas
+              automatizadas con Cypress.</p>
 
-    </main>
-    <script src="./js/app.js"></script>
+            <p class="hidden" id="hiddenText">En anteriores experiencias, documenté casos de uso para brindar el mejor
+              servicio en las aplicaciones. Me he propuesto ampliar mis conocimientos en ISTQB para lograr la
+              certificación, así como en Angular, Redux, Sass y mejorar mis habilidades en buenas prácticas y
+              metodologías Scrum. Me considero una persona altamente proactiva, en la que se puede confiar para cumplir
+              con las metas y objetivos establecidos. Mis compañeros me describen como un colaborador comprometido y
+              motivado en todo momento, con la capacidad de adaptarme rápidamente a situaciones cambiantes y resolver
+              problemas de manera efectiva.</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2 w-full mt-4"
+              id="toggleButton">Ver más</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-100 py-10">
+      <div class="container mx-auto">
+        <h2 class="text-center text-3xl  font-bold mb-8">Experiencia</h2>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full lg:w-1/2 px-4 mb-8">
+            <div class="bg-white p-6 shadow-lg">
+              <h3 class="text-lg font-bold mb-4">Coordinador de Procesos de TI</h3>
+              <p class="text-gray-700 text-sm mb-4">PBS | Abril. 2023 - Presente</p>
+              <ul class="list-disc list-inside">
+                <li class="mb-2">Supervisión del equipo de soporte técnico para garantizar que se cumplan las normas de
+                  calidad y tiempo.</li>
+                <li class="mb-2">Documentación de evidencias y seguimiento de informes técnicos para garantizar la
+                  resolución de problemas y el cumplimiento de los objetivos.</li>
+                <li class="mb-2">Realizar reuniones con los clientes para discutir las necesidades del proyecto y
+                  asegurar la satisfacción del cliente.</li>
+                <li class="mb-2">Recibir y gestionar la salida de equipo para garantizar la eficacia de la gestión de
+                  activos.</li>
+                <li class="mb-2">Planificar y realizar capacitaciones periódicas a los técnicos para mejorar sus
+                  habilidades técnicas y de servicio al cliente.</li>
+                <li class="mb-2">Asegurarse de que los proyectos se ejecuten según los estándares de calidad y tiempo
+                  establecidos a nivel regional.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4 mb-8">
+            <div class="bg-white p-6 shadow-lg">
+              <h3 class="text-lg font-bold mb-4">Analista de aplicaciones web</h3>
+              <p class="text-gray-700 text-sm mb-4">Beta Tech | Oct. 2022 - Abril. 2023</p>
+              <ul class="list-disc list-inside">
+                <li class="mb-2">Desarrollo de nuevas características en aplicaciones web utilizando React.</li>
+                <li class="mb-2">Solución de bugs y errores en el código.</li>
+                <li class="mb-2">Realización de pruebas automatizadas con Cypress.</li>
+                <li class="mb-2">Documentación de casos de uso utilizando la metodología ISTQB.</li>
+                <li class="mb-2">Desarrollo de nuevas funcionalidades en software empresarial.</li>
+                <li class="mb-2">Mantenimiento y actualización de sistemas existentes.</li>
+                <li class="mb-2">Participación en reuniones y planificación de proyectos utilizando la metodología
+                  Scrum.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4 mb-8">
+            <div class="bg-white p-6 shadow-lg">
+              <h3 class="text-lg font-bold mb-4">Supervisor Regional de Soporte Técnico</h3>
+              <p class="text-gray-700 text-sm mb-4">Beta Tech | Ene. 2022 - Oct. 2022</p>
+              <ul class="list-disc list-inside">
+                <li class="mb-2">Gestionar y supervisar la implementación de soluciones técnicas en la región asignada.
+                </li>
+                <li class="mb-2">Coordinar y liderar al equipo de soporte técnico en la región, asegurando que los
+                  técnicos brinden un servicio de alta calidad y se adhieran a los estándares de la empresa.</li>
+                <li class="mb-2">Orientar y capacitar a técnicos de soporte en nuevas tecnologías y prácticas
+                  recomendadas</li>
+                <li class="mb-2">Identificar y resolver problemas técnicos complejos en la región asignada, asegurando
+                  la satisfacción del cliente.
+                </li>
+                <li class="mb-2">Mantener un alto nivel de conocimiento técnico y estar al día con las últimas
+                  tendencias y avances en la industria.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4 mb-8">
+            <div class="bg-white p-6 shadow-lg">
+              <h3 class="text-lg font-bold mb-4">Especialista de soporte técnico</h3>
+              <p class="text-gray-700 text-sm mb-4">Beta Tech | Feb. 2021 - Oct. 2022</p>
+              <ul class="list-disc list-inside">
+                <li class="mb-2">Instalación y configuración de sistemas operativos en múltiples plataformas, incluyendo
+                  Microsoft Windows, macOS y Linux.</li>
+                <li class="mb-2">Administración de activos informáticos, incluyendo el seguimiento y gestión de
+                  inventarios, adquisiciones y disposiciones de hardware y software.</li>
+                <li class="mb-2">Diseño, instalación y mantenimiento de infraestructura de cableado y estructurado,
+                  asegurando la disponibilidad y rendimiento de la red.</li>
+                <li class="mb-2">Identificación y resolución de problemas técnicos en hardware, software y redes</li>
+                <li class="mb-2">Mantenimiento preventivo y correctivo de equipos de cómputo y periféricos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mx-auto py-8">
+        <h2 class="text-center text-3xl font-bold mb-8">Habilidades</h2>
+        <div class="flex flex-col md:flex-row items-center justify-center md:space-x-8">
+          <div class="md:w-1/2 mb-4 md:mb-0">
+            <h3 class="text-2xl font-bold my-8">Habilidades Blandas</h3>
+            <ul class="list-none text-center text-lg">
+              <li class="w-80 border-2 border-blue-500 mb-5">
+                Comunicación Asertiva
+              </li>
+              <li class="w-80 border-2 border-blue-500 mb-5">
+                Escucha Activa
+              </li>
+              <li class="w-80 border-2 border-blue-500 mb-5">
+                Autogestion
+              </li>
+              <li class="w-80 border-2 border-blue-500 mb-5">
+                Altamente organizado
+              </li>
+              <li class="w-80 border-2 border-blue-500 mb-5">
+                Trabajo en equipo
+              </li>
+              <li class="w-80 border-2 border-blue-500 mb-5">
+                Autodidacta
+              </li>
+            </ul>
+          </div>
+          <div class="md:w-1/2 mb-4 md:mb-0">
+            <h3 class="text-2xl font-bold my-8">Habilidades Técnicas</h3>
+            <ul class="list-none">
+              <li>
+                HTML
+                <div class="w-80 h-5 bg-gray-200 rounded-full mt-2">
+                  <div class="w-full progress-bar bg-orange-500 h-full rounded-full text-center text-white">100% </div>
+                </div>
+              </li>
+              <li>
+                CSS
+                <div class="w-80 h-5 bg-gray-200 rounded-full mt-2">
+                  <div class="w-1/2 progress-bar bg-blue-500 h-full rounded-full text-center text-white">50%</div>
+                </div>
+              </li>
+              <li>
+                JavaScript
+                <div class="w-80 h-5 bg-gray-200 rounded-full mt-2">
+                  <div class="w-1/3 progress-bar bg-yellow-500 h-full rounded-full text-center text-white">35%</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+  </main>
+  <script src="./js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/progressbar.js@1.0.0/dist/progressbar.min.js"></script>
 </body>
 
 </html>
